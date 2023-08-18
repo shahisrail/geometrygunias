@@ -93,7 +93,7 @@ function calculateEllipseArea() {
 
     const areaTwoDecimal = area.toFixed(2)
     setELementText('ellipse-area', area, areaTwoDecimal)
-    addtoCalculatoinEntry('ellipse', area, areaTwoDecimal)
+    addtoCalculatoinEntry('ellipse',areaTwoDecimal)
 }
 function calculatePentagonArea() {
     const PentagonMajor = getInputValue('Pentagon-major-radius')
